@@ -7,7 +7,7 @@ const { v4: uuidv4 } = require("uuid");
 const util = require("util");
 const db = require("./db/db.json");
 
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 // const api = require("./public/assets/js/index");
 // app.use("/api", api);
 const app = express();
