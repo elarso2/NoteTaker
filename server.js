@@ -8,8 +8,6 @@ const util = require("util");
 const db = require("./db/db.json");
 
 const PORT = process.env.PORT || 3001;
-// const api = require("./public/assets/js/index");
-// app.use("/api", api);
 const app = express();
 
 app.use(express.json());

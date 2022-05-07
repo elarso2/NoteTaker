@@ -4,7 +4,13 @@
 
 ## Description
 
-For this assignment, we were given the front-end code for a note taking application, which allows the user to write a new note with a title and text, and then save that note to a sidebar. When the user clicks on a saved note, they will be able to view it on the main portion of the screen. Our task for this application was to write the server side code which connects the supplied files via routes, and gives the application its true functionality.
+For this assignment, we were given the front-end code for a note taking application, which allows the user to write a new note with a title and text, and then save that note to a sidebar. When the user clicks on a saved note, they will be able to view it on the main portion of the screen. Our task for this application was to write the server side code which connects the supplied files via routes, and gives the application its true functionality. The first path, "/notes?, redirects the user from the main page to the notes page, which displays the notes they have previously written. The other path, "/api/notes", will write the new notes to the db.json file, thus allowing them to be displayed to the page for the user to view.
+
+At the time of assignment submission, I have not written server code to allow the user to delete their previously saved notes. I will continue to work on this and may resubmit in the future for this code to be reviewed.
+
+![Adding one note](./public/assets/images/firstPic.png)
+
+![Show that note has been saved](./public/assets/images/secondPic.png)
 
 ## Installation
 
